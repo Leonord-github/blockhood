@@ -1,5 +1,8 @@
 <!-- Generated from game database by https://github.com/reinderien/blockhood -->
 
+//This template was based on the corridor page
+
+__NOTOC__
 {{Infobox Information
 | name     = {{PAGENAME}}
 | desc     = $desc
@@ -23,14 +26,44 @@
 | out_qty2 = $out_qty2
 | out_qty3 = $out_qty3
 | out_qty4 = $out_qty4
+}} //Needs to figure out how to ommit non exixting inputs/outputs
+{|
+|style="vertical-align: top;"|<span style="float: left;">[[File:{{PAGENAME}}.png|200px]]</span>
+|
+'''{{PAGENAME}}''' is a [[Blocks|block]] of the '''$cat''' category. //All articles will have longer descriptions than this.
+
+===Access=== //Do you have access to this info programatically?
+{{Access
+| front = y
+| back = y
+| left = y
+| right = y
 }}
+===Sound===
 
-<span style="float: left;">[[File:{{PAGENAME}}.png|200px]]</span>
+{{Blocksound}}
 
-'''{{PAGENAME}}''' is a [[Blocks|block]] of the '''$cat''' category.
+===Sinergies=== //Do you have access to this info programatically?
 
+None
+
+===Inhabitants=== //Do you have access to this info programatically?
+
+{{agent|Security}}Security (as Home) //Example
+
+===Restoration cost=== //Do you have access to this info programatically?
+
+1 {{resource|money}} 1 {{resource|community}} 1 {{resource|labor}}
+|} //Example
+
+==See Also==
+
+//Manual input if needed
+
+==History==
+
+<br>
 {{blocks navigation}}
 
 [[Category:$cat]]
 [[Category:Blocks]]
-[[Category:To verify]]
